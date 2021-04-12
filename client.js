@@ -13,8 +13,8 @@ function generateDiv() {
   console.log('click');
   count++
   $('#target').append(`
+  <div class="color">
     <p class="count">${count}</p>
-    <div class="color">
     <button class="yellowButton">Yellow</button>
     <button class="deleteButton">Delete</button>
     </div>
